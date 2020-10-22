@@ -45,3 +45,6 @@ print(df2)
 sCol4 = pd.Series([111, 222, 333], index=[2, 3, 4], name='D')
 df3 = pd.DataFrame({sCol1.name: sCol1, sCol2.name: sCol2, sCol4.name: sCol4})
 print(df3)
+
+df3.to_excel('./testExcel/003-01Col.xlsx')
+print("Done!!")
