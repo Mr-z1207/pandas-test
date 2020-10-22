@@ -10,6 +10,6 @@ df = df.set_index('ID')
 print('设置后的索引')
 print(df)
 # 生成.xlsx到本地磁盘
-df.to_excel('D:/CodeBase/python/excelTest/testExcel/001test.xlsx')
+df.to_excel('./testExcel/001test.xlsx')
 
 print('Done!')
